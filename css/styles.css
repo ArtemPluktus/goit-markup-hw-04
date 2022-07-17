@@ -388,7 +388,9 @@ header.header {
 }
 
 .clients-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 16px 31px;
   border: 1px solid var(--fill);
   border-radius: 4px;
@@ -441,11 +443,6 @@ address {
   color: var(--address-cl);
 }
 
-.address-container {
-  width: 231px;
-  margin-right: 70px;
-}
-
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-txt-cl);
@@ -455,6 +452,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  gap: 70px;
 }
 
 .footer-socials-title {
