@@ -402,12 +402,12 @@ header.header {
 
 .clients-link:hover,
 .clients-link:focus {
-  color: var(--accent-txt-cl);
   border: 1px solid var(--accent-txt-cl);
 }
 
-.clients-icons {
-  fill: currentColor;
+.clients-link:hover .clients-icons,
+.clients-link:focus .clients-icons {
+  fill: var(--accent-txt-cl);
 }
 
 /* Footer section */
